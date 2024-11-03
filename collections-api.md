@@ -80,51 +80,31 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIs...
 
 ---
 
-### Productos
+### IPFS
 
-#### Listar Productos
+#### Upload files and JSON metadata to the decentralized InterPlanetary File System
+##### Used to store files such as nfts, badgets, pet images, etc.
 ```http
-GET /api/products
+POST https://ipfsapi-v2.vottun.tech/ipfs/v2/file/upload
 ```
 
 **Headers:**
 ```http
-Accept: application/json
+x-application-vkn: <app-id>
 Authorization: Bearer <token>
 ```
 
-**Parámetros Query:**
-| Parámetro | Tipo    | Requerido | Descripción           |
+**Body:**
+| name | type    | required | description           |
 |-----------|---------|-----------|----------------------|
-| page      | integer | No        | Número de página     |
-| limit     | integer | No        | Elementos por página |
-| category  | string  | No        | Filtrar por categoría|
+| filename      | string | yes       | The name of the file. This name is used to store it at database    |
+| file     | file | yes      | the file to be uploaded in multi-part format |
+			
 
-**Ejemplo Request:**
-```http
-GET /api/products?page=1&limit=10&category=electronics
-Authorization: Bearer eyJhbGciOiJIUzI1NiIs...
-```
-
-**Ejemplo Response:**
+**Example Response:**
 ```json
 {
-    "status": "success",
-    "data": {
-        "items": [
-            {
-                "id": "1",
-                "name": "Smartphone XYZ",
-                "price": 599.99,
-                "category": "electronics"
-            }
-        ],
-        "pagination": {
-            "current_page": 1,
-            "total_pages": 5,
-            "total_items": 50
-        }
-    }
+    "hash": "https://ipfsgw.vottun.tech/ipfs/bafybeifd5tzmewtajswdp3q4kn52f5nxauovhiqth3m457ucmoe6m3dniq"
 }
 ```
 
