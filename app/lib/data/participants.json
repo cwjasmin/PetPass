@@ -1,0 +1,78 @@
+{
+    "participantes": [
+      {
+        "id": "PART001",
+        "concursoId": "001",
+        "duenioId": "USER123",
+        "mascota": {
+          "id": "PET456",
+          "fotoPerfil": "foto.com",
+          "nombre": "Rocky",
+          "descripcion": "Bulldog Francés de 2 años, muy juguetón y entrenado en obediencia básica. Ha participado en 3 exhibiciones previas.",
+          "imagenes": [
+            "https://ejemplo.com/rocky_perfil.jpg",
+            "https://ejemplo.com/rocky_juegos.jpg",
+            "https://ejemplo.com/rocky_pose.jpg"
+          ]
+        },
+        "videoParticipacion": "https://ejemplo.com/videos/rocky_participacion.mp4",
+        "redSocial": {
+          "plataforma": "Instagram",
+          "usuario": "@rocky_bulldog",
+          "enlace": "https://instagram.com/rocky_bulldog"
+        },
+        "fechaInscripcion": "2024-11-10T15:30:00Z",
+        "estado": "aprobado",
+        "esGanador": false
+      },
+      {
+        "id": "PART002",
+        "concursoId": "001",
+        "duenioId": "USER456",
+        "mascota": {
+          "id": "PET789",
+          "fotoPerfil": "foto.com",
+          "nombre": "Luna",
+          "descripcion": "Pastor Alemán de 3 años, campeona regional en agility. Especialista en pruebas de obediencia y agilidad.",
+          "imagenes": [
+            "https://ejemplo.com/luna_agility.jpg",
+            "https://ejemplo.com/luna_medallas.jpg"
+          ]
+        },
+        "videoParticipacion": "https://ejemplo.com/videos/luna_concurso.mp4",
+        "redSocial": {
+          "plataforma": "TikTok",
+          "usuario": "@luna_agility",
+          "enlace": "https://tiktok.com/@luna_agility"
+        },
+        "fechaInscripcion": "2024-11-11T09:15:00Z",
+        "estado": "pendiente",
+        "esGanador": false
+      },
+      {
+        "id": "PART003",
+        "concursoId": "002",
+        "duenioId": "USER789",
+        "mascota": {
+          "id": "PET101",
+          "fotoPerfil": "foto.com",
+          "nombre": "Milo",
+          "descripcion": "Gato Persa de 1.5 años, pelaje blanco excepcional. Ganador de mejor pelaje en exposición juvenil 2023.",
+          "imagenes": [
+            "https://ejemplo.com/milo_exposicion.jpg",
+            "https://ejemplo.com/milo_premio.jpg",
+            "https://ejemplo.com/milo_perfil.jpg"
+          ]
+        },
+        "videoParticipacion": "https://ejemplo.com/videos/milo_showcase.mp4",
+        "redSocial": {
+          "plataforma": "Facebook",
+          "usuario": "Milo The Persian Cat",
+          "enlace": "https://facebook.com/milothepersiancat"
+        },
+        "fechaInscripcion": "2024-11-25T14:20:00Z",
+        "estado": "aprobado",
+        "esGanador": false
+      }
+    ]
+  }

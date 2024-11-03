@@ -1,0 +1,62 @@
+{
+    "concursos": [
+      {
+        "id": "001",
+        "titulo": "Gran Exhibición Canina 2024",
+        "imagenPortada": "https://ejemplo.com/expo-canina.jpg",
+        "descripcion": "El evento más prestigioso para mostrar la belleza y el talento de tu perro",
+        "categorias": ["Cachorros", "Adultos", "Razas Pequeñas", "Razas Grandes"],
+        "fechaInicio": "2024-11-15T00:00:00Z",
+        "fechaFin": "2024-11-17T23:59:59Z",
+        "numeroParticipantes": 0,
+        "premios": {
+          "primerLugar": 2000.00,
+          "segundoLugar": 1000.00,
+          "tercerLugar": 500.00
+        },
+        "reglas": [
+          "Cartilla de vacunación vigente",
+          "Edad mínima 6 meses",
+          "Registro de pedigree opcional",
+          "Evaluación de comportamiento obligatoria"
+        ],
+        "propiedadesAdicionales": {
+          "permitirVideos": true,
+          "requiereVacunas": true,
+          "permiteParticipantesMenores": false,
+          "incluyeRevisionVeterinaria": true
+        },
+        "precio": 45.99,
+        "estado": "aprobado"
+      },
+      {
+        "id": "002",
+        "titulo": "Campeonato Felino Internacional",
+        "imagenPortada": "https://ejemplo.com/expo-felina.jpg",
+        "descripcion": "Exhibición internacional de gatos de raza y domésticos",
+        "categorias": ["Pelo Largo", "Pelo Corto", "Gatos Exóticos", "Gatos Domésticos"],
+        "fechaInicio": "2024-12-01T00:00:00Z",
+        "fechaFin": "2024-12-02T23:59:59Z",
+        "numeroParticipantes": 15,
+        "premios": {
+          "primerLugar": 1500.00,
+          "segundoLugar": 750.00,
+          "tercerLugar": 300.00
+        },
+        "reglas": [
+          "Certificado de salud reciente",
+          "Vacunas al día",
+          "Uñas recortadas",
+          "Transportador adecuado obligatorio"
+        ],
+        "propiedadesAdicionales": {
+          "permitirVideos": true,
+          "requiereVacunas": true,
+          "permiteParticipantesMenores": true,
+          "incluyeRevisionVeterinaria": true
+        },
+        "precio": 35.50,
+        "estado": "en_espera_aprobacion"
+      }
+    ]
+  }
