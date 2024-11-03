@@ -61,8 +61,8 @@ https://ipfsgw.vottun.tech/ipfs/bafkreict2lfsy4ng5uz2iunrfpv2tizhgqf74arvvwf45wx
       </a>
     </td>
     <td align="center">
-      <a href="https://www.linkedin.com/in/usuario4" target="_blank">
-        <img src="https://ruta-a-imagen4.jpg" width="100px;" alt="Sydney"/>
+      <a href="https://github.com/FragileTuna" target="_blank">
+        <img src="https://avatars.githubusercontent.com/u/109876228?v=4" width="100px;" alt="Sydney"/>
         <br />
         <sub><b>Sydney</b></sub>
       </a>
